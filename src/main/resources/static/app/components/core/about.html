@@ -1,0 +1,84 @@
+<meta charset="utf-8" /> 
+
+<div style="overflow:hidden;">
+	<header class="header" id="header"><!--header-start-->
+		<div class="container">
+				<div class="about-box animated fadeInUp">
+					<section class="main-section team" id="team">
+						<h1 style="color:black;"> MiNu<i class="fa fa-usd" aria-hidden="true"></i> </h1>
+						<hr class="style-two"/> <br/><br/>
+						<h2> 1. Introduction</h2>
+						<p> Hi there. How are you?</p> 
+						<p>Thank you for your time to read this and perhaps wanting to consider to look at our work here. </p>
+						<p>So you must be wondering who are we. Our mission is very simple. We want to make your day easier.</p>
+						<p>What does that mean, you will ask. Well, we all have a money problems, on one way or another. Isn't that a truth?</p>
+						<p>We are here to make sure you have a full preview on what you have been spending your money.</p>
+						<p>Our service is to show you everything you have bought every day, every month and year.</p>
+						<p>We offer a simple interface you will master in minutes and we are sure that our job here will make your life a bit easier.</p>
+						<p>If not, we are really looking forward to hear your complaints and suggestions. </p>
+						<p>In below section, you will find a way to send us your comments. Feel free to contact us at any time.</p>
+					</section>
+					<hr class="style-two"/>
+					<section class="main-section team" id="team">
+						<div class="container">
+					        <h2>2. Team</h2>
+					        <p>Take a closer look into our amazing team. We might be small, but we are mean.</p><br/>
+					        <div class="team-leader-block clearfix">
+					            <div class="team-leader-box col-sm-offset-2">
+					                <div class="team-leader wow fadeInDown delay-03s">
+					                    <img src="../../../assets/img/suca.png" alt="">
+					                </div>
+					                <h3 class="wow fadeInDown delay-03s">Dejan Urošević</h3>
+					                <span class="wow fadeInDown delay-03s">Developer and Product Owner</span>
+										<ul class="social-link">
+											<li class="facebook"><a href="https://www.facebook.com/dejan.urosevic.79?fref=ts"> <i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+						                    <li class="pinterest"><a href="https://github.com/DejanUrosevic"><i class="fa fa-github"></i></a></li>
+						                    <li class="gplus"><a href="mailto:dejansuca@gmail.com" ><i class="fa fa-envelope"></i></a></li>
+						                </ul>
+					            </div>
+					            <div class="team-leader-box">
+					                <div class="team-leader  wow fadeInDown delay-06s">
+					                    <img src="../../../assets/img/marko.png" alt="">
+					                </div>
+					                <h3 class="wow fadeInDown delay-06s">Marko Striško</h3>
+					                <span class="wow fadeInDown delay-06s">Developer and Product Owner</span>
+										<ul class="social-link">
+											<li class="facebook"><a href="https://www.facebook.com/marko.strisko.7"> <i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+						                    <li class="pinterest"><a href="https://github.com/for3v3rInFriendZone"><i class="fa fa-github"></i></a></li>
+						                    <li class="gplus"><a href="mailto:strile93@gmail.com" ><i class="fa fa-envelope"></i></a></li>
+						                </ul>
+					            </div>
+					        </div>
+					    </div>
+					</section>
+					<hr class="style-two"/>
+					<section class="main-section contact" id="contact">
+				        <div class="row">
+				        	<h2>3. Let's talk business</h2>
+				        	<p>Feel free to send us your thoughts. We will read and answer every single one of them. We promise.</p> <br/> <br/> <br/>
+				        	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+				                <div class="contact-info-box email clearfix">
+				                	<h3><i class="fa-pencil"></i>email:</h3>
+				                	<p>minusgroup2017@hotmail.com.</p>
+				                </div>
+				                <ul class="social-link">
+				                    <li class="pinterest"><a href="https://github.com/for3v3rInFriendZone/MiNuS"><i class="fa fa-github"></i></a></li>
+				                </ul>
+				            </div>
+				        	<div class="col-lg-5 col-sm-3 wow fadeInUp delay-05s">
+				            	<form class="state-form form-horizontal" name="acr.form" ng-submit="acr.sendComment()" novalidate>
+				                	<input class="input-text" type="text" placeholder="Your Name *" ng-model="acr.message.senderName" required>
+				                    <input class="input-text" ng-model-options="{updateOn: 'default blur', debounce: { 'default': 1500, 'blur': 0}}" type="email" id="email" name="email" placeholder="Your E-mail *" ng-model="acr.message.senderEmail" required>
+				                    <p class="text-center" ng-show="acr.form.email.$error.email" style="color: red;"> Your e-mail is not valid.</p>
+				                	<textarea class="input-text text-area" cols="0" placeholder="Your Comment *" rows="0" ng-model="acr.message.senderComment" required></textarea>
+				                	<p ng-if="acr.checkComment" style="color: red;"> Please enter all fields. </p> <br/>
+				                    <input class="input-btn" type="submit" value="Send message">
+				                </form>
+				            </div>
+				        </div>
+					</section>
+				</div>
+		</div>
+	</header>
+</div>
+	
